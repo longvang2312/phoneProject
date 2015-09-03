@@ -1,5 +1,7 @@
 var phoneApp = angular.module('phoneApp', [
-'ngRoute'
+'ngRoute',
+'phoneAppController',
+'phoneAppFillter'
 ]);
 
 
