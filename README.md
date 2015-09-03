@@ -8,3 +8,4 @@ step 2 : angular template
 step 3 : filtering repeaters
 step 4 : two-way data binding
 step 5 : XHRs & dependency injection
+step 6 : templating links & images
