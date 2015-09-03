@@ -14,3 +14,4 @@ step 8 : more templating
 step 9 : fillter
 step 10 : event handlers
 step 11 : REST and custom services
+step 12 : applying animations

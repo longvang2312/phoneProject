@@ -5,16 +5,25 @@
     <title>Google Phone Gallery</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
 </head>
 <body ng-controller="PhoneListCtrl">
-<div ng-view></div>
+<div class="view-container">
+    <div ng-view class="view-frame"></div>
+</div>
 </body>
 <script src="app/app.module.js"></script>
+<script src="app/module/app.animation.js"></script>
 <script src="app/module/app.route.js"></script>
 <script src="app/module/app.controller.js"></script>
 <script src="app/module/app.fillter.js"></script>
 <script src="app/module/app.service.js"></script>
+
 </html>
