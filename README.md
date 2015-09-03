@@ -13,3 +13,4 @@ step 7 : routing & multiple views
 step 8 : more templating
 step 9 : fillter
 step 10 : event handlers
+step 11 : REST and custom services
