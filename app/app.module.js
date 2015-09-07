@@ -1,12 +1,13 @@
-var phoneApp = angular.module('phoneApp', [
-'ngRoute',
+angular
+    .module('phoneApp', [
+        'ngRoute',
 
-'phoneAppAnimation',
-'phoneAppController',
-'phoneAppFillter',
-'phoneAppService',
-'appDateTime'
-]);
+        'phoneAppAnimation',
+        'phoneAppController',
+        'phoneAppFillter',
+        'phoneAppService',
+        'appDateTime'
+        ]);
 
 
 
