@@ -4,7 +4,8 @@ var phoneApp = angular.module('phoneApp', [
 'phoneAppAnimation',
 'phoneAppController',
 'phoneAppFillter',
-'phoneAppService'
+'phoneAppService',
+'appDateTime'
 ]);
 
 
